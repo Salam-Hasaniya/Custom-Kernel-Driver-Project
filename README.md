@@ -1,5 +1,5 @@
  # Custom-Kernel-Driver-Project
-This project implements a **custom Linux kernel driver** with basic operations such as **read, write**, and an additional operation using **ioctl**. The driver is designed to handle controlled commands from a **user-space application**, allowing interaction with the kernel beyond standard read/write calls.
+A custom Linux kernel module that implements a character device driver for a Hangman game. The module handles user interactions through read, write, and ioctl system calls, allowing a user-space application to play the game via the terminal.
 
 ## **How It Works**
 1. **The kernel module (`condition_mod.c`)** registers as a character device.
