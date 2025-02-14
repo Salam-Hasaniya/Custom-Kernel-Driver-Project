@@ -19,7 +19,6 @@ A custom Linux kernel module that implements a character device driver for a Han
 | `cleanup.sh`    | Unloads the module and removes the device file |
 | `README.md`     | Documentation                                 |
 
----
 
 ## **IOCTL Commands**
 
