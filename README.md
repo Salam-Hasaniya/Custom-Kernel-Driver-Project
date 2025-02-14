@@ -19,8 +19,3 @@ This project implements a **custom Linux kernel driver** with basic operations s
    - **Read & Write** operations for basic data transfer.
    - **Ioctl** calls for special control commands.
 3. The driver interacts with a **buffer**, processes commands, and maintains state.
-
-## **Compilation and Execution**
-### **1. Compile the Kernel Module**
-```sh
-make
